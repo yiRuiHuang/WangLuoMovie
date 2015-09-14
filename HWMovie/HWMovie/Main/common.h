@@ -20,4 +20,12 @@
 #define CinemaListFile @"cinema_list.json"
 #define MovieCommentFile @"movie_comment.json"
 #define MovieDetailFile @"movie_detail.json"
+
+
+
+#define BaseUrl  @"https://api.douban.com"
+
+#define US_BOX @"/v2/movie/us_box"
+#define TOP250 @"/v2/movie/top250"
+
 #endif

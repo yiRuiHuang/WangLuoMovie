@@ -10,14 +10,14 @@
 	<string>HWMovie</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2F76EA6068C72662ACAD07DDD873DEFB9EF30F4D</key>
+		<key>DC950B7F8A7A8DD2B9FE9658C50CBC5A531A19AA</key>
 		<string>https://git.oschina.net/daduan/HWmovie.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>HWMovie/HWMovie.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2F76EA6068C72662ACAD07DDD873DEFB9EF30F4D</key>
+		<key>DC950B7F8A7A8DD2B9FE9658C50CBC5A531A19AA</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2F76EA6068C72662ACAD07DDD873DEFB9EF30F4D</string>
+	<string>DC950B7F8A7A8DD2B9FE9658C50CBC5A531A19AA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2F76EA6068C72662ACAD07DDD873DEFB9EF30F4D</string>
+			<string>DC950B7F8A7A8DD2B9FE9658C50CBC5A531A19AA</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HWmovie</string>
 		</dict>

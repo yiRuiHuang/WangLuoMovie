@@ -11,6 +11,7 @@
 #import "MovieTableViewCell.h"
 #import "common.h"
 #import "DataService.h"
+#import "HttpDataService.h"
 
 @interface MovieViewController ()
 
@@ -34,13 +35,14 @@
     // tableView是第一个被加载到view的子视图
     [self _creteMovieTableView];
     [self _createPosterView];
-    [self _loadData];
+//    [self _loadData];
 //    self.edgesForExtendedLayout = UIRectEdgeNone;
+    [self _loadDataHttp];
 }
 
 #pragma mark - LoadData
 
-//  从Json中加载本地数据
+//  从Json中加载本地数据,丢弃,改用网络数据
 - (void)_loadData {
 //    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"us_box" ofType:@"json"];
 //    NSData *data = [NSData dataWithContentsOfFile:filePath];
@@ -68,6 +70,37 @@
     }
     
     _posterView.movieModalArray = _movieModalArray;
+}
+
+- (void)_loadDataHttp {
+    
+    [HttpDataService requestAFUrl:US_BOX httpMethod:@"GET" params:nil data:nil block:^(id result) {
+        NSDictionary *dic = result;
+        __block MovieViewController *this = self;
+        // 可变数组  ->  字典
+        this->_movieModalArray = [NSMutableArray array];
+        
+        // subjects array  11项
+        NSArray *subjects = dic[@"subjects"];
+        for (NSDictionary *dict in subjects) {
+            MovieModal *mDict = [[MovieModal alloc] init];
+            NSDictionary *subject = dict[@"subject"];
+            mDict.title = subject[@"title"];  // title
+            mDict.year = subject[@"year"];    // year
+            mDict.images = subject[@"images"];    // images
+            
+            NSDictionary *rating = subject[@"rating"];
+            mDict.average = [rating[@"average"] floatValue];   // average
+            
+            //        NSLog(@"%@",mDict);
+            [this->_movieModalArray addObject:mDict];
+        }
+        
+        this->_posterView.movieModalArray = this->_movieModalArray;
+    }] ;
+    
+    
+    
 }
 
 #pragma mark - CreateSubviews

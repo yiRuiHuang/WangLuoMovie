@@ -12,6 +12,7 @@
 #import "TopCollectionViewCell.h"
 #import "common.h"
 #import "TopMovieDetailViewController.h"
+#import "HttpDataService.h"
 
 @interface TopViewController ()
 
@@ -31,7 +32,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self _createCollectionView];
-    [self _loadTopData];
+//    [self _loadTopData];
+    [self _loadTopDataHttp];
 }
 
 - (void)_loadTopData {
@@ -45,6 +47,27 @@
         [_topMessageArray addObject:modal];
     }
 //    NSLog(@"%@",_topMessageArray);
+}
+
+- (void)_loadTopDataHttp {
+    
+    __block TopViewController *this = self;
+    [HttpDataService requestAFUrl:TOP250 httpMethod:@"GET" params:nil data:nil block:^(id result) {
+        
+        this->_topMessageArray = [NSMutableArray array];
+        NSDictionary *dic = result;
+        NSArray *subjects = dic[@"subjects"];
+        for (NSDictionary *dict in subjects) {
+            TopModal *modal = [[TopModal alloc] init];
+            [modal setValuesForKeysWithDictionary:dict];
+            modal.average = [dict[@"rating"][@"average"] floatValue];
+            [this->_topMessageArray addObject:modal];
+        }
+//         NSLog(@"%@",_topMessageArray);
+        [this->_topCollectionView reloadData];
+        
+    }];
+    
 }
 
 - (void)_createCollectionView {
@@ -64,12 +87,14 @@
 
 #pragma mark - collectionViewDataSourse
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+//    NSLog(@"%ld",_topMessageArray.count);
     return _topMessageArray.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     TopCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"topCollection" forIndexPath:indexPath];
     cell.topMessage = _topMessageArray[indexPath.row];
+    
     return cell;
 }
 

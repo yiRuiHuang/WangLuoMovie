@@ -4,6 +4,11 @@
 //
 //  Created by hyrMac on 15/7/17.
 //  Copyright (c) 2015年 hyrMac. All rights reserved.
+/**
+ 项目一 中，用AFNetWorking 封装网络接口，完成DataService类，并把数据的获取改成网络获取：
+ 注意点1：重新获取数据后要刷新页面 ，页面的 刷新在主线程中。
+ 注意点2：如果用到block ，注意循环引用的问题
+ */
 //
 
 #import "BaseNavigationController.h"
