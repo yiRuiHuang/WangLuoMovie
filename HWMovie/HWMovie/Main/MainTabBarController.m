@@ -77,20 +77,7 @@
     // 04 tabBar.subviews -> 按钮添加
     NSArray *buttonImageNames = @[@"movie_home.png",@"msg_new.png",@"start_top250.png",@"icon_cinema.png",@"more_setting.png"];
     NSArray *buttonNames = @[@"电影",@"新闻",@"Top",@"影院",@"更多"];
-    
-//    for (NSInteger i = 0; i < self.viewControllers.count; i++) {
-//        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(i*tabBarButtonWidth, 0, tabBarButtonWidth, tabBarButtonHeight)];
-//        button.tag = i;
-//        [button setTitle:buttonNames[i] forState:UIControlStateNormal];
-//        [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-//        button.titleLabel.font = [UIFont systemFontOfSize:11];
-//        [button setImage:[UIImage imageNamed:buttonImageNames[i]] forState:UIControlStateNormal];
-//        // CGFloat top, left, bottom, right;
-//        button.titleEdgeInsets = UIEdgeInsetsMake(30, -18, 0, 0);
-//        button.imageEdgeInsets = UIEdgeInsetsMake(-10, 24, 0, 0);
-//        [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
-//        [self.tabBar addSubview:button];
-//    }
+
     
     for (NSInteger i = 0; i < self.viewControllers.count; i++) {
         

@@ -35,8 +35,7 @@
     // tableView是第一个被加载到view的子视图
     [self _creteMovieTableView];
     [self _createPosterView];
-//    [self _loadData];
-//    self.edgesForExtendedLayout = UIRectEdgeNone;
+
     [self _loadDataHttp];
 }
 
