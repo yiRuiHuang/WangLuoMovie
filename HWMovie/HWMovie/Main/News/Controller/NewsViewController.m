@@ -71,6 +71,7 @@
 }
 
 #pragma mark - createSubviews
+
 - (void)_createTableView {
     _newsTableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     _newsTableView.delegate = self;
@@ -142,6 +143,7 @@
     if (cell1.newsMessage.type == 1) {
         ImageNewsViewController *imgNewsVc = [[ImageNewsViewController alloc] init];
         [self.navigationController pushViewController:imgNewsVc animated:YES];
+//        隐藏tabbar
         self.navigationController.tabBarController.tabBar.hidden = YES;
     }
 }
@@ -153,6 +155,7 @@
     if (offY > -64) {
         // 整体向上走了    self.frame.origin.y
         _headerImageView.top = -offY;
+        
     } else {
         CGFloat newHeight = -64-offY+200;
         CGFloat newWidth = newHeight/200*kWidth;

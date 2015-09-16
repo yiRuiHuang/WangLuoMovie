@@ -43,6 +43,7 @@
 - (void)_createCollectionView {
     UICollectionViewFlowLayout *lay = [[UICollectionViewFlowLayout alloc] init];
     lay.itemSize = CGSizeMake((kWidth-50)/4, (kWidth-50)/4*1.2);
+    
     _imageCollectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:lay];
     _imageCollectionView.dataSource = self;
     _imageCollectionView.delegate = self;
@@ -80,6 +81,7 @@
 #pragma mark - UICollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    // 大图浏览
     PhotoViewController *pvc = [[PhotoViewController alloc] init];
 
     BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:pvc];
@@ -89,6 +91,7 @@
     for (ImageNewsModal *modal in _imageModalArray) {
         [imageUrlArray addObject:modal.image];
     }
+    
 //    pvc.view.backgroundColor = [UIColor redColor];  //在pvc.imageUrlArray = imageUrlArray;前先调用到话，没有赋值，跳转到指定图片无法进行,会崩
     pvc.currentIndex = indexPath.row;
     pvc.imageUrlArray = imageUrlArray;

@@ -28,9 +28,7 @@
 }
 
 - (void)_createImageView {
-    UIImageView *backImageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
-    backImageView.image = [UIImage imageNamed:@"Default-568h@2x.png"];
-    [self.view addSubview:backImageView];
+
     
     index = 0;
     NSInteger count = 24;
@@ -93,11 +91,11 @@
     }
     UIImageView *imageView = imageArray[index];
     [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:0.3];  // 0.3
+    [UIView setAnimationDuration:0.1];  // 0.3
     imageView.alpha = 1;
     [UIView commitAnimations];
     index++;
-    [self performSelector:@selector(startAnimation1) withObject:self afterDelay:0.3]; // 0.3
+    [self performSelector:@selector(startAnimation1) withObject:self afterDelay:0.1]; // 0.3
 }
 
 - (void)didReceiveMemoryWarning {

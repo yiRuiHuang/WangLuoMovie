@@ -14,8 +14,11 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ol-iI-mSC">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ol-iI-mSC">
                         <rect key="frame" x="100" y="5" width="143" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="RmL-yx-m18"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -54,21 +57,30 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YNM-sH-pmu">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YNM-sH-pmu">
                         <rect key="frame" x="10" y="5" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="UkZ-5e-GrA"/>
+                            <constraint firstAttribute="height" constant="80" id="grT-N6-T2K"/>
+                        </constraints>
                     </imageView>
                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XQR-ps-iyS" customClass="StarView">
                         <rect key="frame" x="100" y="33" width="151" height="25"/>
                     </view>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="YNM-sH-pmu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="0Mr-BC-px7"/>
                     <constraint firstItem="9XO-tN-E70" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="30" id="110-Ic-PLU"/>
                     <constraint firstAttribute="trailingMargin" secondItem="9XO-tN-E70" secondAttribute="trailing" constant="5" id="Dtj-Qt-Ye1"/>
                     <constraint firstItem="9XO-tN-E70" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="30" id="J8j-Sv-KuA"/>
+                    <constraint firstItem="YNM-sH-pmu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="MV8-ph-M9Z"/>
                     <constraint firstItem="9XO-tN-E70" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="30" id="RTu-Na-1JE"/>
                     <constraint firstAttribute="trailingMargin" secondItem="9XO-tN-E70" secondAttribute="trailing" constant="5" id="eV9-sj-jOx"/>
                     <constraint firstAttribute="trailingMargin" secondItem="9XO-tN-E70" secondAttribute="trailing" constant="8" id="fC0-W6-pY6"/>
+                    <constraint firstItem="9ol-iI-mSC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="jlM-QI-Nh7"/>
                     <constraint firstItem="9XO-tN-E70" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="22" id="ug7-qb-GFc"/>
+                    <constraint firstItem="9ol-iI-mSC" firstAttribute="leading" secondItem="YNM-sH-pmu" secondAttribute="trailing" constant="10" id="vOr-ga-8Cd"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="9ol-iI-mSC" secondAttribute="trailing" constant="69" id="xK8-nb-Oqn"/>
                 </constraints>
                 <variation key="default">
                     <mask key="constraints">

@@ -30,6 +30,7 @@
     NSString *htmlStr = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
     [web2 loadHTMLString:htmlStr baseURL:nil];
     [self.view addSubview:web2];
+    
 }
 
 - (void)didReceiveMemoryWarning {

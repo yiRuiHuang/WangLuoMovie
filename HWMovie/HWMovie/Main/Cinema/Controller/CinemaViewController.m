@@ -131,6 +131,11 @@
     return button;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 #pragma mark - Actions
 - (void)buttonAction:(UIButton *)button {
     NSInteger index = button.tag;

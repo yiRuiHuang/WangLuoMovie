@@ -96,6 +96,7 @@
         }
         
         this->_posterView.movieModalArray = this->_movieModalArray;
+        [this->_movieTableView reloadData];
     }] ;
     
     
@@ -113,7 +114,7 @@
     [button1 setBackgroundImage:[UIImage imageNamed:@"exchange_bg_home@2x"] forState:UIControlStateNormal];
     [button1 sizeToFit];
     button1.tag = 1;
-    [button1 addTarget:self action:@selector(buttonAction:) forControlEvents: UIControlEventTouchUpInside ];
+    [button1 addTarget:self action:@selector(buttonAction1:) forControlEvents: UIControlEventTouchUpInside ];
     [btnView addSubview:button1];
     
     UIButton *button2 = [UIButton buttonWithType:UIButtonTypeCustom ];
@@ -121,7 +122,7 @@
     [button2 setBackgroundImage:[UIImage imageNamed:@"exchange_bg_home@2x"] forState:UIControlStateNormal];
     [button2 sizeToFit];
     button2.tag = 2;
-    [button2 addTarget:self action:@selector(buttonAction:) forControlEvents: UIControlEventTouchUpInside ];
+    [button2 addTarget:self action:@selector(buttonAction1:) forControlEvents: UIControlEventTouchUpInside ];
     [btnView addSubview:button2];
     button2.hidden = YES;
 
@@ -151,7 +152,7 @@
 
 #pragma mark - Actions
 
-- (void)buttonAction:(UIButton *)button {
+- (void)buttonAction1:(UIButton *)button {
     UIView *filpView = self.navigationItem.rightBarButtonItem.customView;
     
     UIButton *btn1 = (UIButton *)[filpView viewWithTag:1];
