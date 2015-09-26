@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface GuideViewController : UIViewController <UIScrollViewDelegate>
-@property (weak, nonatomic) IBOutlet UIScrollView *guideScrollView;
-@property (weak, nonatomic) IBOutlet UIButton *enterButton;
+@property (strong, nonatomic)  UIScrollView *guideScrollView;
+@property (strong, nonatomic)  UIButton *enterButton;
 
-- (IBAction)btnAction:(id)sender;
+
 
 @end

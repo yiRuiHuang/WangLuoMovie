@@ -23,9 +23,19 @@
     [_movieImageView sd_setImageWithURL:[NSURL URLWithString:str]];
     
     _titleLabel.text = _movieModal.title;
-    _englishTitleLabel.text = _movieModal.title;
+    _titleLabel.numberOfLines = 0;
+    [_titleLabel sizeToFit];
+    
+//    _englishTitleLabel.text = _movieModal.title;
+//    _englishTitleLabel.numberOfLines = 0;
+//    [_englishTitleLabel sizeToFit];
+    
     _yearLabel.text = [NSString stringWithFormat:@"年份：%@",_movieModal.year];
-    _averageLabel.text = [NSString stringWithFormat:@"%.1f",_movieModal.average];
+    _yearLabel.numberOfLines = 0;
+    [_yearLabel sizeToFit];
+    
+    
+    _averageLabel.text = [NSString stringWithFormat:@"%.1f分",_movieModal.average];
     
     _starView.average = _movieModal.average;
 }

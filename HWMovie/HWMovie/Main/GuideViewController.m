@@ -24,8 +24,13 @@
 }
 
 - (void)_createViews {
-    _enterButton.hidden = YES;
     
+    _guideScrollView = [[UIScrollView alloc] init];
+    _guideScrollView.frame = CGRectMake(0, 0, kWidth, kHeight);
+    [self.view addSubview:_guideScrollView];
+    
+   
+
     for (NSInteger i = 0; i < 5; i++) {
         NSString *imageName = [NSString stringWithFormat:@"guide%ld@2x.png",i+1];
         NSString *pageImageName = [NSString stringWithFormat:@"guideProgress%ld@2x.png",i+1];
@@ -45,6 +50,15 @@
     _guideScrollView.contentSize = CGSizeMake(kWidth*5, kHeight);
     _guideScrollView.pagingEnabled = YES;
     _guideScrollView.bounces = NO;
+    
+    _enterButton = [[UIButton alloc] initWithFrame:CGRectMake(30, kHeight-100, kWidth-60, 30)];
+    [_enterButton setTitle:@"开启电影之旅" forState:UIControlStateNormal];
+    [_enterButton setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    _enterButton.hidden = YES;
+    _enterButton.backgroundColor = [UIColor clearColor];
+    [_enterButton addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_enterButton];
+    
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
@@ -61,7 +75,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)btnAction:(id)sender {
+- (void)btnAction:(id)sender {
    
     LaunchViewController *lun = [[LaunchViewController alloc] init];
     self.view.window.rootViewController = lun;

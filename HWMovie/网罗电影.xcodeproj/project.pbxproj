@@ -25,6 +25,10 @@
 		420B92AB1B5CDF9500287FA8 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 420B92991B5CDF9500287FA8 /* UIImageView+HighlightedWebCache.m */; };
 		420B92AC1B5CDF9500287FA8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 420B929B1B5CDF9500287FA8 /* UIImageView+WebCache.m */; };
 		420B92AD1B5CDF9500287FA8 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 420B929D1B5CDF9500287FA8 /* UIView+WebCacheOperation.m */; };
+		423EAB051BB66BBC0011E475 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB011BB66BBC0011E475 /* AppIcon29x29@2x.png */; settings = {ASSET_TAGS = (); }; };
+		423EAB061BB66BBC0011E475 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB021BB66BBC0011E475 /* AppIcon40x40@2x.png */; settings = {ASSET_TAGS = (); }; };
+		423EAB071BB66BBC0011E475 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB031BB66BBC0011E475 /* AppIcon60x60@2x.png */; settings = {ASSET_TAGS = (); }; };
+		423EAB081BB66BBC0011E475 /* AppIcon76x76@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB041BB66BBC0011E475 /* AppIcon76x76@2x~ipad.png */; settings = {ASSET_TAGS = (); }; };
 		42479C181B5FC7F500F10D39 /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42479C161B5FC7F500F10D39 /* MoreTableViewCell.m */; };
 		42479C191B5FC7F500F10D39 /* MoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42479C171B5FC7F500F10D39 /* MoreTableViewCell.xib */; };
 		42479C1C1B5FC9DC00F10D39 /* moreModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 42479C1B1B5FC9DC00F10D39 /* moreModal.m */; };
@@ -252,7 +256,6 @@
 		42AD568C1B65F0B800A2FD40 /* TopMovieDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42AD568A1B65F0B800A2FD40 /* TopMovieDetailTableViewCell.xib */; };
 		42AD568F1B65F53600A2FD40 /* TopCommentModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AD568E1B65F53600A2FD40 /* TopCommentModal.m */; };
 		42AD56971B66174400A2FD40 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AD56951B66174400A2FD40 /* GuideViewController.m */; };
-		42AD56981B66174400A2FD40 /* GuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42AD56961B66174400A2FD40 /* GuideViewController.xib */; };
 		42AD569B1B6620FB00A2FD40 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AD569A1B6620FB00A2FD40 /* LaunchViewController.m */; };
 		42AD569E1B6643E000A2FD40 /* TopheadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AD569D1B6643E000A2FD40 /* TopheadView.m */; };
 		42AD56A01B6643F400A2FD40 /* TopheadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42AD569F1B6643F400A2FD40 /* TopheadView.xib */; };
@@ -317,6 +320,10 @@
 		420B929C1B5CDF9500287FA8 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		420B929D1B5CDF9500287FA8 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		421A38891B5CE87300A2A71C /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = common.h; path = ../HWMovie/Main/common.h; sourceTree = "<group>"; };
+		423EAB011BB66BBC0011E475 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		423EAB021BB66BBC0011E475 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		423EAB031BB66BBC0011E475 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		423EAB041BB66BBC0011E475 /* AppIcon76x76@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x~ipad.png"; sourceTree = "<group>"; };
 		42479C151B5FC7F500F10D39 /* MoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewCell.h; sourceTree = "<group>"; };
 		42479C161B5FC7F500F10D39 /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewCell.m; sourceTree = "<group>"; };
 		42479C171B5FC7F500F10D39 /* MoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreTableViewCell.xib; sourceTree = "<group>"; };
@@ -547,7 +554,7 @@
 		4279038B1B5E397A00215F93 /* TopCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCollectionViewCell.xib; sourceTree = "<group>"; };
 		4279038E1B5E3D8C00215F93 /* TopModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopModal.h; sourceTree = "<group>"; };
 		4279038F1B5E3D8C00215F93 /* TopModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopModal.m; sourceTree = "<group>"; };
-		428377EB1B589A8B001DF594 /* HWMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428377EB1B589A8B001DF594 /* 网罗电影.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网罗电影.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		428377EF1B589A8B001DF594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		428377F01B589A8B001DF594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		428377F21B589A8B001DF594 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -555,7 +562,7 @@
 		428377F91B589A8B001DF594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		428377FB1B589A8B001DF594 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		428377FE1B589A8B001DF594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		428378041B589A8B001DF594 /* HWMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428378041B589A8B001DF594 /* 网罗电影.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网罗电影.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		428378091B589A8B001DF594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4283780A1B589A8B001DF594 /* HWMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWMovieTests.m; sourceTree = "<group>"; };
 		428379461B58A0A9001DF594 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -591,7 +598,6 @@
 		42AD568E1B65F53600A2FD40 /* TopCommentModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCommentModal.m; sourceTree = "<group>"; };
 		42AD56941B66174400A2FD40 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		42AD56951B66174400A2FD40 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
-		42AD56961B66174400A2FD40 /* GuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideViewController.xib; sourceTree = "<group>"; };
 		42AD56991B6620FB00A2FD40 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
 		42AD569A1B6620FB00A2FD40 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 		42AD569C1B6643E000A2FD40 /* TopheadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopheadView.h; sourceTree = "<group>"; };
@@ -698,6 +704,10 @@
 		4252EC1F1B5FB06600792DAB /* images_new */ = {
 			isa = PBXGroup;
 			children = (
+				423EAB011BB66BBC0011E475 /* AppIcon29x29@2x.png */,
+				423EAB021BB66BBC0011E475 /* AppIcon40x40@2x.png */,
+				423EAB031BB66BBC0011E475 /* AppIcon60x60@2x.png */,
+				423EAB041BB66BBC0011E475 /* AppIcon76x76@2x~ipad.png */,
 				4252EC201B5FB06600792DAB /* MediaPlayer */,
 				4252EC211B5FB06600792DAB /* playButton@2x.png */,
 				4252EC221B5FB06600792DAB /* top250 */,
@@ -1003,8 +1013,8 @@
 		428377E21B589A8B001DF594 = {
 			isa = PBXGroup;
 			children = (
-				428377ED1B589A8B001DF594 /* HWMovie */,
-				428378071B589A8B001DF594 /* HWMovieTests */,
+				428377ED1B589A8B001DF594 /* Movie */,
+				428378071B589A8B001DF594 /* MovieTests */,
 				428377EC1B589A8B001DF594 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1012,13 +1022,13 @@
 		428377EC1B589A8B001DF594 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				428377EB1B589A8B001DF594 /* HWMovie.app */,
-				428378041B589A8B001DF594 /* HWMovieTests.xctest */,
+				428377EB1B589A8B001DF594 /* 网罗电影.app */,
+				428378041B589A8B001DF594 /* 网罗电影.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		428377ED1B589A8B001DF594 /* HWMovie */ = {
+		428377ED1B589A8B001DF594 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
 				4252EC1F1B5FB06600792DAB /* images_new */,
@@ -1031,6 +1041,7 @@
 				428377FD1B589A8B001DF594 /* LaunchScreen.xib */,
 				428377EE1B589A8B001DF594 /* Supporting Files */,
 			);
+			name = Movie;
 			path = HWMovie;
 			sourceTree = "<group>";
 		};
@@ -1043,12 +1054,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		428378071B589A8B001DF594 /* HWMovieTests */ = {
+		428378071B589A8B001DF594 /* MovieTests */ = {
 			isa = PBXGroup;
 			children = (
 				4283780A1B589A8B001DF594 /* HWMovieTests.m */,
 				428378081B589A8B001DF594 /* Supporting Files */,
 			);
+			name = MovieTests;
 			path = HWMovieTests;
 			sourceTree = "<group>";
 		};
@@ -1313,7 +1325,6 @@
 			children = (
 				42AD56941B66174400A2FD40 /* GuideViewController.h */,
 				42AD56951B66174400A2FD40 /* GuideViewController.m */,
-				42AD56961B66174400A2FD40 /* GuideViewController.xib */,
 				42AD56991B6620FB00A2FD40 /* LaunchViewController.h */,
 				42AD569A1B6620FB00A2FD40 /* LaunchViewController.m */,
 			);
@@ -1349,9 +1360,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		428377EA1B589A8B001DF594 /* HWMovie */ = {
+		428377EA1B589A8B001DF594 /* 网罗电影 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4283780E1B589A8B001DF594 /* Build configuration list for PBXNativeTarget "HWMovie" */;
+			buildConfigurationList = 4283780E1B589A8B001DF594 /* Build configuration list for PBXNativeTarget "网罗电影" */;
 			buildPhases = (
 				428377E71B589A8B001DF594 /* Sources */,
 				428377E81B589A8B001DF594 /* Frameworks */,
@@ -1361,14 +1372,14 @@
 			);
 			dependencies = (
 			);
-			name = HWMovie;
+			name = "网罗电影";
 			productName = HWMovie;
-			productReference = 428377EB1B589A8B001DF594 /* HWMovie.app */;
+			productReference = 428377EB1B589A8B001DF594 /* 网罗电影.app */;
 			productType = "com.apple.product-type.application";
 		};
-		428378031B589A8B001DF594 /* HWMovieTests */ = {
+		428378031B589A8B001DF594 /* 网罗电影Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 428378111B589A8B001DF594 /* Build configuration list for PBXNativeTarget "HWMovieTests" */;
+			buildConfigurationList = 428378111B589A8B001DF594 /* Build configuration list for PBXNativeTarget "网罗电影Tests" */;
 			buildPhases = (
 				428378001B589A8B001DF594 /* Sources */,
 				428378011B589A8B001DF594 /* Frameworks */,
@@ -1379,9 +1390,9 @@
 			dependencies = (
 				428378061B589A8B001DF594 /* PBXTargetDependency */,
 			);
-			name = HWMovieTests;
+			name = "网罗电影Tests";
 			productName = HWMovieTests;
-			productReference = 428378041B589A8B001DF594 /* HWMovieTests.xctest */;
+			productReference = 428378041B589A8B001DF594 /* 网罗电影.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1390,11 +1401,12 @@
 		428377E31B589A8B001DF594 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = hyrMac;
 				TargetAttributes = {
 					428377EA1B589A8B001DF594 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4RE86257QJ;
 					};
 					428378031B589A8B001DF594 = {
 						CreatedOnToolsVersion = 6.3;
@@ -1402,7 +1414,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 428377E61B589A8B001DF594 /* Build configuration list for PBXProject "HWMovie" */;
+			buildConfigurationList = 428377E61B589A8B001DF594 /* Build configuration list for PBXProject "网罗电影" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1415,8 +1427,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				428377EA1B589A8B001DF594 /* HWMovie */,
-				428378031B589A8B001DF594 /* HWMovieTests */,
+				428377EA1B589A8B001DF594 /* 网罗电影 */,
+				428378031B589A8B001DF594 /* 网罗电影Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -1433,7 +1445,6 @@
 				4252ECF61B5FB06700792DAB /* 24@2x.png in Resources */,
 				4252ED1A1B5FB06700792DAB /* more_phb@2x.png in Resources */,
 				4252ECEA1B5FB06700792DAB /* 13@2x.png in Resources */,
-				42AD56981B66174400A2FD40 /* GuideViewController.xib in Resources */,
 				4252ECE71B5FB06700792DAB /* 10@2x.png in Resources */,
 				4252ED3B1B5FB06700792DAB /* movieDetail_comments_frame.png in Resources */,
 				4252ED551B5FB06700792DAB /* indexBG_home.png in Resources */,
@@ -1479,6 +1490,7 @@
 				4252ED261B5FB06700792DAB /* moreBusiness@2x.png in Resources */,
 				4252ED3A1B5FB06700792DAB /* movieDetail_comments_arrow.png in Resources */,
 				4252ED641B5FB06700792DAB /* up_home.png in Resources */,
+				423EAB051BB66BBC0011E475 /* AppIcon29x29@2x.png in Resources */,
 				4252ED071B5FB06700792DAB /* guide5@2x.png in Resources */,
 				4252ED621B5FB06700792DAB /* poster_title_home@2x.png in Resources */,
 				4252ED041B5FB06700792DAB /* guide2@2x.png in Resources */,
@@ -1520,6 +1532,7 @@
 				4279038D1B5E397A00215F93 /* TopCollectionViewCell.xib in Resources */,
 				4252ED211B5FB06700792DAB /* more_set.png in Resources */,
 				4252ECD21B5FB06700792DAB /* icon_cinema.png in Resources */,
+				423EAB081BB66BBC0011E475 /* AppIcon76x76@2x~ipad.png in Resources */,
 				4252ECD61B5FB06700792DAB /* movie_cinema.png in Resources */,
 				4252ED031B5FB06700792DAB /* guide1@2x.png in Resources */,
 				4252ED201B5FB06700792DAB /* more_select_setting@2x.png in Resources */,
@@ -1561,6 +1574,7 @@
 				4252ED2B1B5FB06700792DAB /* moreWelcome@2x.png in Resources */,
 				428377FF1B589A8B001DF594 /* LaunchScreen.xib in Resources */,
 				4252ED141B5FB06700792DAB /* more_fav.png in Resources */,
+				423EAB071BB66BBC0011E475 /* AppIcon60x60@2x.png in Resources */,
 				4252ED0D1B5FB06700792DAB /* msg_select_new.png in Resources */,
 				4273ECFC1B5CA0FB00B03CEB /* news_list.json in Resources */,
 				4252ED1D1B5FB06700792DAB /* more_search_on.png in Resources */,
@@ -1611,6 +1625,7 @@
 				4252ECD01B5FB06700792DAB /* Icon.png in Resources */,
 				4252ED271B5FB06700792DAB /* moreClear@2x.png in Resources */,
 				4252ECDF1B5FB06700792DAB /* selectTabbar_bg_all1.png in Resources */,
+				423EAB061BB66BBC0011E475 /* AppIcon40x40@2x.png in Resources */,
 				4252ECEB1B5FB06700792DAB /* 14@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1718,7 +1733,7 @@
 /* Begin PBXTargetDependency section */
 		428378061B589A8B001DF594 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 428377EA1B589A8B001DF594 /* HWMovie */;
+			target = 428377EA1B589A8B001DF594 /* 网罗电影 */;
 			targetProxy = 428378051B589A8B001DF594 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1764,6 +1779,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1779,7 +1795,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1816,7 +1832,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1827,9 +1843,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HWMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = hyr.wangluo;
+				PRODUCT_NAME = "网罗电影";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -1837,9 +1857,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HWMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = hyr.wangluo;
+				PRODUCT_NAME = "网罗电影";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -1857,8 +1881,9 @@
 				);
 				INFOPLIST_FILE = HWMovieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWMovie.app/HWMovie";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "网罗电影";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网罗电影.app/网罗电影";
 			};
 			name = Debug;
 		};
@@ -1872,15 +1897,16 @@
 				);
 				INFOPLIST_FILE = HWMovieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWMovie.app/HWMovie";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "网罗电影";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网罗电影.app/网罗电影";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		428377E61B589A8B001DF594 /* Build configuration list for PBXProject "HWMovie" */ = {
+		428377E61B589A8B001DF594 /* Build configuration list for PBXProject "网罗电影" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4283780C1B589A8B001DF594 /* Debug */,
@@ -1889,7 +1915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4283780E1B589A8B001DF594 /* Build configuration list for PBXNativeTarget "HWMovie" */ = {
+		4283780E1B589A8B001DF594 /* Build configuration list for PBXNativeTarget "网罗电影" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4283780F1B589A8B001DF594 /* Debug */,
@@ -1898,7 +1924,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		428378111B589A8B001DF594 /* Build configuration list for PBXNativeTarget "HWMovieTests" */ = {
+		428378111B589A8B001DF594 /* Build configuration list for PBXNativeTarget "网罗电影Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				428378121B589A8B001DF594 /* Debug */,

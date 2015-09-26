@@ -104,7 +104,7 @@
     NSString *str = modal.districtId;
     NSArray *array = _cinemaDictionary[str];
     cell.cModal = array[indexPath.row];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
@@ -123,8 +123,9 @@
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, kWidth, 44)];
- //   button.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"hotMovieBottomImage@2x"]];
-    button.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"loginFrame@2x"]];
+    button.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"hotMovieBottomImage@2x"]];
+//    button.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"loginFrame@2x"]];
+
     [button setTitle:[_districtArray[section] name] forState:UIControlStateNormal ];
     button.tag = section;
     [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside ];

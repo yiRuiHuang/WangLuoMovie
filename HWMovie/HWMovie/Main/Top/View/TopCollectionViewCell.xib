@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -22,7 +23,13 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4T-tH-LWV">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXt-Yi-Hhq" customClass="StarView">
+                        <rect key="frame" x="5" y="125" width="57" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="0rS-eE-Yvr"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="l" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4T-tH-LWV">
                         <rect key="frame" x="90" y="120" width="20" height="30"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="20" id="25L-b9-Hj3"/>
@@ -30,18 +37,12 @@
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXt-Yi-Hhq" customClass="StarView">
-                        <rect key="frame" x="5" y="125" width="78" height="17"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="17" id="0rS-eE-Yvr"/>
-                        </constraints>
-                    </view>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <constraints>
                 <constraint firstItem="DXt-Yi-Hhq" firstAttribute="top" secondItem="zWx-y1-mKe" secondAttribute="bottom" constant="5" id="0PC-b0-ppB"/>
-                <constraint firstItem="K4T-tH-LWV" firstAttribute="leading" secondItem="DXt-Yi-Hhq" secondAttribute="trailing" constant="7" id="8WV-1C-XmG"/>
+                <constraint firstItem="K4T-tH-LWV" firstAttribute="leading" secondItem="DXt-Yi-Hhq" secondAttribute="trailing" constant="28" id="8WV-1C-XmG"/>
                 <constraint firstItem="K4T-tH-LWV" firstAttribute="top" secondItem="zWx-y1-mKe" secondAttribute="bottom" id="9m2-mW-df4"/>
                 <constraint firstItem="mEt-Te-UOr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="EH2-C8-Rbm"/>
                 <constraint firstItem="DXt-Yi-Hhq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="EKe-LD-UT5"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "428377EA1B589A8B001DF594"
-               BuildableName = "HWMovie.app"
-               BlueprintName = "HWMovie"
-               ReferencedContainer = "container:HWMovie.xcodeproj">
+               BuildableName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;.app"
+               BlueprintName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;"
+               ReferencedContainer = "container:&#x7f51;&#x7f57;&#x7535;&#x5f71;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,27 +29,27 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "428378031B589A8B001DF594"
-               BuildableName = "HWMovieTests.xctest"
-               BlueprintName = "HWMovieTests"
-               ReferencedContainer = "container:HWMovie.xcodeproj">
+               BuildableName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;.xctest"
+               BlueprintName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;Tests"
+               ReferencedContainer = "container:&#x7f51;&#x7f57;&#x7535;&#x5f71;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "428378031B589A8B001DF594"
-               BuildableName = "HWMovieTests.xctest"
-               BlueprintName = "HWMovieTests"
-               ReferencedContainer = "container:HWMovie.xcodeproj">
+               BuildableName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;.xctest"
+               BlueprintName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;Tests"
+               ReferencedContainer = "container:&#x7f51;&#x7f57;&#x7535;&#x5f71;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,48 +57,51 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "428377EA1B589A8B001DF594"
-            BuildableName = "HWMovie.app"
-            BlueprintName = "HWMovie"
-            ReferencedContainer = "container:HWMovie.xcodeproj">
+            BuildableName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;.app"
+            BlueprintName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;"
+            ReferencedContainer = "container:&#x7f51;&#x7f57;&#x7535;&#x5f71;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "428377EA1B589A8B001DF594"
-            BuildableName = "HWMovie.app"
-            BlueprintName = "HWMovie"
-            ReferencedContainer = "container:HWMovie.xcodeproj">
+            BuildableName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;.app"
+            BlueprintName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;"
+            ReferencedContainer = "container:&#x7f51;&#x7f57;&#x7535;&#x5f71;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "428377EA1B589A8B001DF594"
-            BuildableName = "HWMovie.app"
-            BlueprintName = "HWMovie"
-            ReferencedContainer = "container:HWMovie.xcodeproj">
+            BuildableName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;.app"
+            BlueprintName = "&#x7f51;&#x7f57;&#x7535;&#x5f71;"
+            ReferencedContainer = "container:&#x7f51;&#x7f57;&#x7535;&#x5f71;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

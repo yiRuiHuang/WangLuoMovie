@@ -68,7 +68,7 @@
         
 //        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake((i%4)*width, (i/4)*height, width, height)];
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(x, y, width, height)];
-        NSString *imageName = [NSString stringWithFormat:@"%ld@2x.png",i+1];
+        NSString *imageName = [NSString stringWithFormat:@"%d@2x.png",i+1];
         imageView.image = [UIImage imageNamed:imageName];
         imageView.alpha = 0;
         [self.view addSubview:imageView];

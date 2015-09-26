@@ -33,7 +33,7 @@
     _nameLabel.font = [UIFont boldSystemFontOfSize:19];
 //    [_nameLabel sizeToFit];
     
-    _gradeLabel.text = _cModal.grade;
+    _gradeLabel.text = [NSString stringWithFormat:@"%@分",_cModal.grade];
     _gradeLabel.textColor = [UIColor orangeColor];
     _gradeLabel.font = [UIFont systemFontOfSize:14];
     
